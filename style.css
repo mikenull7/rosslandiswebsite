@@ -35,7 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   word-wrap:normal;
-  white-space: nowrap;
+  white-space:pre;
 }
 
 .site-header .logo {
