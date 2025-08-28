@@ -35,6 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   word-wrap:normal;
+  white-space: nowrap;
 }
 
 .site-header .logo {
@@ -159,6 +160,7 @@ width: 75%;
   display:block;
   margin:auto;
   line-height: 200%;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #spacer {
