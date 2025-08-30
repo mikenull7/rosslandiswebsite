@@ -21,7 +21,8 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 // Force scroll to top on reload
 window.onload = () => window.scrollTo(0, 0);
 
-// Slideshow logic
+// Slideshow logic //
+/*
 const slideshowImages = [
   "assets/photos/miw_1.png",
   "assets/photos/miw_2.png",
@@ -51,7 +52,7 @@ function nextSlide() {
 }
 
 setInterval(nextSlide, 3000);
-
+*/
 // AOS scroll animation
 AOS.init({
   duration: 800,

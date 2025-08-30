@@ -35,7 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   word-wrap:normal;
-  white-space:pre;
+  white-space: pre;
 }
 
 .site-header .logo {
@@ -53,6 +53,39 @@ body {
 .site-nav a:hover {
   color: #ffd700;
 }
+
+/* RENTAL SITE */
+.rental-site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rental-site-header .rental-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rental-site-nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.rental-site-nav a:hover {
+  color: #ffd700;
+}
+
+
 
 /* Hero */
 .hero {
@@ -83,7 +116,7 @@ body {
 }
 
 /* Portfolio Grid */
-#portfolio h2 {
+#Artists h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -100,7 +133,7 @@ body {
 .image-container {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 9 / 16;
 }
 
 .image-container img {
@@ -132,6 +165,12 @@ body {
   opacity: 1;
 }
 
+#aboutme h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
 /* About 
 #About {
   padding: 2rem 1rem;
@@ -424,4 +463,17 @@ width: 75%;
 
 .logo a:hover {
   color: #ffd700;
+}
+
+#rental-gear h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
+
+#rental-info {
+    font-size: .8rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
